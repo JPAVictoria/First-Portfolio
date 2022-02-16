@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 40px;
+    font-family: Arial;
+    margin-top: 30px;
+}
+
+.list-nav li{
+    float: right;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+.list-nav ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-nav a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.list-nav a:hover{
+    color: #A89B8C;
+}
+
+/****NAVIGATION AREA ABOVE****/
+
+.header-main h2{
+    font-weight:300;
+    margin-left: 30px;
+    color:#212529;
+}
+
+.header-main a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.header-main a:hover{
+    color: #A89B8C;
+}
+
+/**HEADER CODE ABOVE ONLY **/
+
+
+.main-content h2{
+    text-align: center;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-family: arial;
+    font-weight: 200;
+}
+
+.main-content p{
+    line-height: 1.6;
+    color: #212529;
+    text-align: center;
+    font-family: Arial;
+}
+
+.center{
+    text-align: center;
+}
+
+.main-content img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #212529;
+}
+
+/***MAIN-CONTENT CODE ABOVE ONLY*/
+
+.list-socmed ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list-socmed li{
+    float: right;
+    margin-left: 15px;
+}
+
+.list-socmed li:nth-child(1){
+    margin-right: 552px;
+}
+
+/***END OF FIRST PAGE*/
+
+.skills-main h2{
+    text-align: center;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    font-family: arial;
+}
+
+.skills-main li{
+    float: right;
+    margin-right: 265px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.skills-main ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-main li:hover{
+    color: #A89B8C;
+    cursor:default;
+}
+
+.skills-main-image li{
+    float: right;
+    margin-top: 30px;
+}
+
+.skills-main-image ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-main-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.skills-main-image li:nth-child(1){
+    margin-right: 230px;
+}
+
+.skills-main-image li:nth-child(2){
+    margin-right: 190px;
+}
+
+.skills-main-image li:nth-child(3){
+    margin-right: 190px;
+}
+
+/*SKILLS CODE ABOVE ONLY */
+
+.projects-main h2{
+    text-align: center;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    font-family: arial;
+}
+
+.projects-main img{
+    width: 380px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform .2s;
+    border-radius: 4px;
+}
+
+.projects-main img:hover{
+    transform: scale(1.1);
+}
+
+.projects-main li{
+    float: right;
+    margin-top: 30px;
+}
+
+.projects-main li:nth-child(1){
+    margin-right: 150px;
+}
+
+.projects-main li:nth-child(2){
+    margin-right: 220px;
+}
+
+
+.projects-main ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.projects-content li{
+    float: right;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.projects-content li:nth-child(1){
+    margin-right: 200px;
+}
+
+.projects-content li:nth-child(2){
+    margin-right: 300px;
+}
+
+.projects-content ol{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.projects-main-1 img{
+    border-radius: 4px;
+    width: 380px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform .2s;
+    margin-top: 60px;
+}
+
+.projects-main-1 img:hover{
+    transform: scale(1.1);
+}
+
+.projects-main-1 h2{
+    text-align: center;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    font-family: arial;
+    margin-top: 30px;
+}
+
+/* PROJECTS CODE ABOVE ONLY */
+
+.contacts-main h2{
+    text-align: center;
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.contacts-main label{
+    color: #212529;
+    letter-spacing: 0.6;
+    font-weight: 200;
+    font-family: arial;
+    font-size: 20px;
+    margin-left: 388px;
+}
+
+.contacts-main input{
+    margin-top: 5px;
+     width: 550px;
+     border-radius: 4px;
+     height: 40px;
+     border: 1px solid #ccc;
+     margin-left: 386px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+
+input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text]{
+    padding-left: 10px;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.button input{
+    width: 100px;
+    margin-left: 593px;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background-color: #ccc;
+
+}
+
+
+
+
+
+
+
